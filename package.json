@@ -1,0 +1,20 @@
+{
+  "name": "html-to-image",
+  "version": "1.2.0",
+  "description": "Generates images from HTML",
+  "main": "src/index.js",
+  "author": "hot-meal",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=10"
+  },
+  "bin": {
+    "html-to-image": "./src/index.js"
+  },
+  "dependencies": {
+    "node-html-to-image": "^1.2.0",
+    "ora": "^4.0.3",
+    "signale": "^1.4.0",
+    "yargs": "^15.0.2"
+  }
+}
